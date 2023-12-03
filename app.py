@@ -40,6 +40,7 @@ class Event(db.Model):
     title = db.Column(db.String(50))
 
 
+# View
 class EventView:
     @staticmethod
     def display_event(event):
